@@ -8,5 +8,5 @@ scipy
 plotly
 tqdm 
 fscraper
-riskfolio
+Riskfolio-Lib
 reportlab
