@@ -7,7 +7,6 @@ pandas_datareader
 scipy 
 plotly
 tqdm 
-fscraper==1.0.3
+fscraper
 riskfolio
 reportlab
-
