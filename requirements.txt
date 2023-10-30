@@ -1,13 +1,9 @@
 streamlit
-io 
 pandas
 numpy
-json
 numpy
 pandas
 matplotlib.pyplot
-datetime
-json
 yfinance
 pandas_datareader
 random
