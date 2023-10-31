@@ -593,7 +593,7 @@ if start and end and stocks and riskFreeRate and method:
         cont=True
         
 if method=='hier':
-    st.text('Note:")
+    st.text('Note:')
     st.text('HERC: Hierarchical Equal Risk Contribution.')
     st.text('HERC2: HERC but splitting weights equally within clusters.')
 
