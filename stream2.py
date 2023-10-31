@@ -570,7 +570,7 @@ st.text('Inverse Volatility: invstd')
 st.text('Hierarchical Equal Risk Contribution (dev): eqrisk')
 st.text('Note: maxsharpe and minstd allows Download of Markowitz Efficient Frontier')
 
-method = st.selectbox(label="Select Optimization Technique", options=['maxsharpe', 'minstd', 'maxdiv', 'maxdecorr', 'invstd', 'eqrisk'])
+method = st.selectbox(label="Select Optimization Technique", options=['maxsharpe', 'minstd', 'maxdiv', 'maxdecorr', 'invstd', 'eqrisk', 'hier])
 
 cont=False
 
