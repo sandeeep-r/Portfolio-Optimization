@@ -591,7 +591,11 @@ if start and end and stocks and riskFreeRate and method:
 
         st.text('Computing... done!')
         cont=True
-
+        
+if method=='hier':
+    st.text('Note:")
+    st.text('HERC: Hierarchical Equal Risk Contribution.')
+    st.text('HERC2: HERC but splitting weights equally within clusters.')
 
 def save_plot_as_image(fig, filename):
     fig.write_image(filename, format="png")
