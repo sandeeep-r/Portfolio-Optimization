@@ -567,11 +567,11 @@ st.text('Minimize Volatility: minstd')
 st.text('Maximize Diversification: maxdiv')
 st.text('Maximize Decorrelation: maxdecorr')
 st.text('Inverse Volatility: invstd')
-st.text('Risk Parity-Equal Risk COntribution: eqrisk')
+# st.text('Risk Parity-Equal Risk Contribution: eqrisk')
 st.text('Hierarchical Equal Risk Contribution (dev): hier')
 st.text('Note: maxsharpe and minstd allows Download of Markowitz Efficient Frontier')
 
-method = st.selectbox(label="Select Optimization Technique", options=['maxsharpe', 'minstd', 'maxdiv', 'maxdecorr', 'invstd', 'eqrisk', 'hier'])
+method = st.selectbox(label="Select Optimization Technique", options=['maxsharpe', 'minstd', 'maxdiv', 'maxdecorr', 'invstd', 'hier'])
 
 cont=False
 
